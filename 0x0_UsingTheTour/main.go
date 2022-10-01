@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-ruby := 123
-
 func main() {
 	var i, j int = 1, 2
 	k := 3
