@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"runtime"
+	"time"
 )
 
 func main() {
+	fmt.Println(time.Now())
 	fmt.Print("Go runs on ")
 	switch os := runtime.GOOS; os {
 	case "darwin":
