@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func split(sum int) (x, y int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return
-}
+ruby := 123
 
 func main() {
-	fmt.Println(split(17))
+	var i, j int = 1, 2
+	k := 3
+	c, python, java := true, false, "no!"
+
+	fmt.Println(i, j, k, c, python, java)
 }
