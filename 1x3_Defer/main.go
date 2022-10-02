@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Rupert")
+	//defer LIFO
+	defer fmt.Println("Rupert")
 	fmt.Println("Grint")
-	fmt.Println("Ron")
+	defer fmt.Println("Ron")
 }
